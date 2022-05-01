@@ -1,0 +1,18 @@
+﻿using Doctor_Apoinment.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Doctor_Apoinment.Data
+{
+    public class ApplicationDbContext:IdentityDbContext<ApplicationUser>
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext>optins):base(optins)
+        {
+
+        }
+    }
+}
