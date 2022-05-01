@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Doctor_Apoinment.Models.ViewModels
 {
-    public class RegisterViewModel
+    public class RegisterModel
     {
         [Required]
         public string Name { get; set; }

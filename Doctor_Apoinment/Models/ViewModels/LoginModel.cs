@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Doctor_Apoinment.Models.ViewModels
 {
-    public class LoginViewModel
+    public class LoginModel
     {
         [Required]
         [EmailAddress]

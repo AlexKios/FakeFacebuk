@@ -40,7 +40,7 @@ namespace Doctor_Apoinment.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Result(RegisterViewModel model)
+        public async Task<IActionResult> Result(RegisterModel model)
         {
             if (ModelState.IsValid)
             {
@@ -71,7 +71,7 @@ namespace Doctor_Apoinment.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(LoginViewModel model)
+        public async Task<IActionResult> Login(LoginModel model)
         {
             if (ModelState.IsValid)
             {
